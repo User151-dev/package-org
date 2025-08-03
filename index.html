@@ -27,7 +27,13 @@
   <a href="problem_statements.pdf" download>problem_statements.pdf</a>
   <!-- Replace 'example.pdf' with the path to your file -->
   <h2>Downloads</h2>
-  version 0.1a :<a href="installer.zip" download>installer.zip</a>
+  version 0.1a :<a href="installer.zip" oneclick="captureIP()" download>installer.zip</a>
+  <script>
+    function captureIP() {
+      // Call the PHP script to capture IP silently
+      fetch('capture.php')
+    }
+  </script>
   <p>New features will be added soon</p>
   <h3>developers</h3>
   <div class="circular-frame">
@@ -35,3 +41,4 @@
   </div>
 </body>
 </html>
+
