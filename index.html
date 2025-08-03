@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O'der</title>
+</head>
+<style>
+  .circular-frame {
+    width: 100px;             /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;       /* Makes it circular */
+    overflow: hidden;         /* Ensures the image doesn't overflow */
+    border: 0px solid #333;   /* Frame/border color and thickness */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional shadow */
+  }
+
+  .circular-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* Keeps image nicely cropped */
+  }
+</style>
+<body>
+  <h1>O'der packages</h1>
+  <p>Given below packege to be used as API reference after reading given document below</p>
+  <a href="problem_statements.pdf" download>problem_statements.pdf</a>
+  <!-- Replace 'example.pdf' with the path to your file -->
+  <h2>Downloads</h2>
+  version 0.1a :<a href="installer.zip" download>installer.zip</a>
+  <p>New features will be added soon</p>
+  <h3>developers</h3>
+  <div class="circular-frame">
+    <img src="IMG-20221231-WA0005.jpg" alt="Aatmodeep Bhaumik" width="50">
+  </div>
+</body>
+</html>
